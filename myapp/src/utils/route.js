@@ -1,6 +1,6 @@
 export const ROUTERS = [
   {
-    path: '/home',
+    path: '/',
     iconPath: 'http://635679.haituie.cn/635679/index.png',
     name: '首页',
   },

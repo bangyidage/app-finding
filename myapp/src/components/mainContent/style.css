@@ -1,0 +1,344 @@
+.main-content {
+  margin-top: -12px;
+  padding-bottom: 32px;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 12px 12px 0px 0px;
+  z-index: 20;
+}
+
+.pic-btn {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+.pic-btn .pic-head {
+  margin-left: -2px;
+  margin-top: -55px;
+  z-index: 10000;
+}
+
+.pic-head .head {
+  margin: 2px;
+  width: 90px;
+  height: 90px;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 62px;
+}
+
+.pic-btn .pic-right {
+  display: flex;
+  margin-top: 30px;
+}
+
+.chat {
+  width: 32px;
+  height: 32px;
+  background: #E6EEFF url(../img/chat.png) no-repeat 8px 8px;
+  background-size: 16px 16.11px;
+  border-radius: 18px;
+}
+
+.btn-care {
+  display: flex;
+  margin-left: 22px;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 32px;
+  background: #2F5AFF;
+  border-radius: 18px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.btn-care::before {
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  margin-right: 4px;
+  width: 12px;
+  height: 12px;
+  background: url(../img/bgg@2x.png) no-repeat;
+  background-size: cover;
+}
+
+.btn-follow {
+  margin-left: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 32px;
+  background: #FFFFFF;
+  border-radius: 18px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #2F5AFF;
+  border: 1px solid #2F5AFF;
+  box-sizing: border-box;
+}
+
+.btn-follow::before {
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  margin-right: 4px;
+  width: 12px;
+  height: 12px;
+  background: url(../img/right.png) no-repeat;
+  background-size: cover;
+}
+
+/* .pic-care {
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+    background: url(./img/bgg@2x.png) no-repeat;
+    background-size: cover; 
+} */
+
+.main-person {
+  padding-left: 20px;
+  margin-right: 20px;
+  /* overflow: hidden; */
+}
+
+.main-person .boy {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2F3742;
+  line-height: 36px;
+}
+
+.main-person .user {
+  font-size: 13px;
+  font-weight: 400;
+  color: #95A1AF;
+  line-height: 16px;
+}
+
+.main-person .msg {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2F3742;
+  line-height: 20px;
+}
+
+.main-person .msg::after {
+  display: block;
+  margin-left: -20px;
+  margin-top: 12px;
+  content: '';
+  width: 100vw;
+  height: 1px;
+  background: #F6F7F9;
+  z-index: 4;
+}
+
+.fans {
+  margin: 16px 0 0px 6px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 300;
+  color: #95A1AF;
+}
+
+.fans-left {
+  display: flex;
+}
+
+.box-cared {
+  margin-right: 44px;
+}
+
+.fans-cared, .fans-num {
+  margin-bottom: 1px;
+  line-height: 18px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #2F3742;
+}
+
+.fans-right {
+  display: flex;
+  margin-right: 2px;
+  margin-top: -4px;
+}
+
+.visitor {
+  margin-right: 2px;
+  margin-left: -4px;
+}
+
+.visitor-heads {
+  height: 22px;
+  padding-right: 9px;
+  padding-left: 4px;
+}
+
+.fans-right .local-visitor {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: -4px;
+  border: 1px solid #F6F7F9;
+  border-radius: 50%;
+  background: url(../img/visitors.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.visitor-nums {
+  line-height: 17px;
+}
+
+.visitor-about {
+  margin: 13px 11px 0 0px;
+  width: 11.31px;
+  height: 11.31px;
+  background: url(../img/Rectangle@2x.png) no-repeat;
+  background-size: cover;
+}
+
+.awards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  height: 36px;
+  background: #F6F7F9;
+  border-radius: 18px;
+}
+
+.awards-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.awards-left div {
+  margin-left: 7px;
+}
+
+.awards-pic {
+  width: 24px;
+  height: 34px;
+  background: url(../img/awards.png) no-repeat;
+  background-size: cover;
+}
+
+.awards-res {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2F3742;
+  line-height: 20px;
+}
+
+/* .awards-right {
+    
+} */
+
+.awards-about {
+  margin-right: 10px;
+  width: 14px;
+  height: 14px;
+  background: url(../img/Rectangle@2x.png) no-repeat;
+  background-size: cover;
+}
+
+.course {
+  margin: 38px 0px 0px 0px;
+  width: 100%;
+}
+
+.course .course-title {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2F3742;
+  line-height: 24px;
+}
+
+.main-course {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+  overflow-x: scroll;
+}
+
+/* .outer-main-course{
+    position: relative;
+    height: 135px;
+}
+.main-course {
+    display: flex;
+    margin-top: 12px;
+    /* animation: marginLeft 10.5s infinite alternate; */
+
+/* } */
+
+/* @keyframes marginLeft {
+    to {
+        margin-left: -600px;
+    }
+} */
+
+.main-course .course-detail {
+  margin-right: 10px;
+  width: 140px;
+}
+
+.course-head {
+  margin-bottom: 9px;
+  width: 140px;
+  height: 84px;
+}
+
+.course-head .pic-course {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.class-body {
+  display: flex;
+  vertical-align: middle;
+  width: 140px;
+  height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 14px;
+  color: #2F3742;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  /* 设置超出多少行隐藏 */
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  /* 设置 display 为 -webkit-box 或者 -webkit-inline-box 时为隐藏状态 */
+}
+
+.type {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 2px;
+  padding-right: 3px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  margin-right: 3px;
+  background: #464D5C;
+  border-radius: 0px 4px 6px 4px;
+  font-size: 10px;
+  line-height: 10px;
+  color: #FFFFFF;
+  overflow: hidden;
+}

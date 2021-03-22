@@ -15,6 +15,7 @@
   background: #fafafa;
   font-size: 12px;
   text-align: center;
+  z-index: 1000;
 }
 
 .tab {

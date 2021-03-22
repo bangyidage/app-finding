@@ -1,0 +1,92 @@
+.header {
+  position: relative;
+  display: flex;
+}
+
+.bg-box {
+  height: 184px;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.header-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.header-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 184px;
+}
+
+.icon-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+
+.back {
+  margin-left: 17px;
+  width: 20px;
+  height: 20px;
+  background: url(../img/back.png) no-repeat;
+  background-size: cover;
+}
+
+.icon-top-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  margin-right: 29px;
+  width: 17px;
+  height: 17px;
+  background: url(../img/photo.png) no-repeat;
+  background-size: cover;
+  border-radius: 2px;
+}
+
+.share {
+  margin-right: 13px;
+  width: 17px;
+  height: 17px;
+  background: url(../img/share.png) no-repeat;
+  background-size: cover;
+}
+
+.icon-right {
+  position: relative;
+}
+
+.help {
+  position: absolute;
+  right: 0;
+  margin-right: 23px;
+  margin-top: 35px;
+  width: 19px;
+  height: 19px;
+  background: url(../img/help.png) no-repeat;
+  background-size: cover;
+}
+
+.time {
+  padding-right: 3px;
+  margin-top: 61px;
+  margin-right: 20px;
+  text-align: right;
+  line-height: 24px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+
+.days, .hours {
+  font-size: 24px;
+}

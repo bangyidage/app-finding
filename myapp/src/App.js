@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter, Link, Route } from 'react-router-dom'
+import { HashRouter, Link, Route, Switch } from 'react-router-dom'
 import Home from './pages/home'
 import Video from './pages/video'
 import People from './pages/peoper'
@@ -16,7 +16,6 @@ export default class App extends React.Component {
             {
               ROUTERS.map((item) => {
                 const { path, iconPath, name } = item
-                console.log(item)
                 return (
                   <Link className="tab" to={path} key={path}>
                     <img className="tab-imgs" src={iconPath} alt={name} />
@@ -26,11 +25,13 @@ export default class App extends React.Component {
               })
             }
           </div>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/video" component={Video} />
+            <Route path="/message" component={Message} />
+            <Route path="/people" component={People} />
+          </Switch>
 
-          <Route path="/home" component={Home} />
-          <Route path="/video" component={Video} />
-          <Route path="/message" component={Message} />
-          <Route path="/people" component={People} />
         </HashRouter>
       </div>
     )
