@@ -1,0 +1,23 @@
+.course-ranking-top {
+  display: flex;
+  align-items: center;
+  margin: 43px 0 10px;
+}
+
+.course-ranking-icon {
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 188, 50, 0.3);
+  border-radius: 50%;
+}
+
+.course-ranking-title {
+  margin-left: -22px;
+  height: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #2F3742;
+  line-height: 30px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}

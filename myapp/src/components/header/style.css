@@ -1,6 +1,7 @@
 .header {
   position: relative;
   display: flex;
+  padding: 0;
 }
 
 .bg-box {
